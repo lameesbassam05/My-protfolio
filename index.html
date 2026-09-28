@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamees Bassam Saleh | Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ============================================
+         NAVBAR
+         ============================================ -->
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="https://ui-avatars.com/api/?name=Lamees+Bassam&background=38bdf8&color=0f172a&bold=true" 
+                 alt="Lamees Bassam" class="logo-img">
+            <div class="logo-text">
+                <span class="logo-name">Lamees Bassam</span>
+                <span class="logo-title">Information Systems – Security</span>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- ============================================
+         HERO SECTION
+         ============================================ -->
+    <header class="hero">
+        <div class="hero-content">
+            <span class="badge">
+                <i class="fas fa-shield-halved"></i> Information Security & Artificial Intelligence
+            </span>
+            <h1>Lamees Bassam Saleh</h1>
+            <p class="subtitle">
+                Information Systems Student specializing in Information Security | Data Analysis & AI
+            </p>
+
+            <div class="meta-info">
+                <span><i class="fas fa-location-dot"></i> Salfit - Kifl Haris, Palestine</span>
+                <span><i class="fas fa-graduation-cap"></i> Expected Graduation: May 2028</span>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">
+                    <i class="fas fa-paper-plane"></i> Contact Me
+                </a>
+                <a href="https://www.linkedin.com/in/lamees-bassam-61a463380" 
+                   target="_blank" class="btn btn-outline">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ============================================
+         ABOUT SECTION
+         ============================================ -->
+    <section id="about" class="section">
+        <h2 class="section-title">Professional Summary <span>About Me</span></h2>
+        <div class="about-card">
+            <p>
+                Motivated third-year Information Systems student specializing in 
+                <strong>Information Security</strong> at Palestine Technical University – Kadoorie. 
+                I have a strong passion for cybersecurity, data analysis, and artificial intelligence. 
+                I completed specialized training in AI and Data Analysis through Udacity, and web 
+                development through Knowledge Academy. I am distinguished by my problem-solving skills, 
+                fast learning, and collaborative teamwork.
+            </p>
+
+            <div class="pillars">
+                <div class="pillar-box">
+                    <i class="fas fa-user-shield"></i>
+                    <h3>Cybersecurity</h3>
+                    <p>Encryption principles, cybercrime, and data protection.</p>
+                </div>
+                <div class="pillar-box">
+                    <i class="fas fa-chart-pie"></i>
+                    <h3>Data & AI</h3>
+                    <p>Data collection, processing, TensorFlow, and Python.</p>
+                </div>
+                <div class="pillar-box">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Dev</h3>
+                    <p>Building web interfaces using HTML, CSS, and JavaScript.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         EDUCATION SECTION
+         ============================================ -->
+    <section id="education" class="section bg-alt">
+        <h2 class="section-title">Education & Coursework <span>Education</span></h2>
+        <div class="edu-container">
+            <div class="edu-card">
+                <div class="edu-header">
+                    <h3>Bachelor of Information Systems – Information Security</h3>
+                    <span class="university">
+                        <a href="https://www.ptuk.edu.ps/" target="_blank" rel="noopener noreferrer">
+                            Palestine Technical University – Kadoorie
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </span>
+                </div>
+                <p class="edu-date">
+                    <i class="fas fa-calendar-alt"></i> Expected Graduation: May 2028
+                </p>
+
+                <h4 class="sub-heading">Key Academic Coursework:</h4>
+                <div class="courses-grid">
+                    <span class="course-tag"><i class="fas fa-check"></i> Programming in Java & C</span>
+                    <span class="course-tag"><i class="fas fa-check"></i> Web Technologies: HTML & CSS</span>
+                    <span class="course-tag"><i class="fas fa-check"></i> Data Analysis & AI Fundamentals</span>
+                    <span class="course-tag"><i class="fas fa-check"></i> Principles of Encryption & Cybercrime</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SKILLS SECTION
+         ============================================ -->
+    <section id="skills" class="section">
+        <h2 class="section-title">Technical Skills <span>Skills</span></h2>
+
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="prog">Programming & Web</button>
+            <button class="filter-btn" data-filter="ai">Data & AI</button>
+            <button class="filter-btn" data-filter="sec">Security & Encryption</button>
+            <button class="filter-btn" data-filter="soft">Soft Skills</button>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-card" data-category="prog">
+                <i class="fab fa-java"></i>
+                <h3>Java & C</h3>
+                <p>Core programming languages and data structures</p>
+            </div>
+            <div class="skill-card" data-category="prog">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5 & CSS3</h3>
+                <p>Building and developing user interfaces</p>
+            </div>
+            <div class="skill-card" data-category="ai">
+                <i class="fab fa-python"></i>
+                <h3>Python & TensorFlow</h3>
+                <p>AI programming and machine learning</p>
+            </div>
+            <div class="skill-card" data-category="ai">
+                <i class="fas fa-database"></i>
+                <h3>Data Analysis</h3>
+                <p>Data collection, processing & interpretation (Udacity)</p>
+            </div>
+            <div class="skill-card" data-category="sec">
+                <i class="fas fa-lock"></i>
+                <h3>Encryption Principles</h3>
+                <p>Encryption fundamentals and data protection</p>
+            </div>
+            <div class="skill-card" data-category="sec">
+                <i class="fas fa-user-ninja"></i>
+                <h3>Cybercrime Knowledge</h3>
+                <p>Understanding cybercrime and prevention methods</p>
+            </div>
+            <div class="skill-card" data-category="prog">
+                <i class="fab fa-github"></i>
+                <h3>GitHub & Git</h3>
+                <p>Version control and project management</p>
+            </div>
+            <div class="skill-card" data-category="soft">
+                <i class="fas fa-users"></i>
+                <h3>Soft Skills</h3>
+                <p>Teamwork, analytical thinking, and adaptability</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         CERTIFICATIONS SECTION
+         ============================================ -->
+    <section id="certifications" class="section bg-alt">
+        <h2 class="section-title">Certifications & Training <span>Certifications</span></h2>
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="year">2026</span>
+                    <h3>AI Programming with Python and TensorFlow</h3>
+                    <p class="provider">Udacity Certified</p>
+                    <p>Intensive training in AI programming using Python and TensorFlow.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="year">2026</span>
+                    <h3>Full Stack JavaScript Developer</h3>
+                    <p class="provider">Udacity Certified</p>
+                    <p>Building complete and interactive web applications.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="year">2026</span>
+                    <h3>HTML & CSS Web Development</h3>
+                    <p class="provider">Knowledge Academy</p>
+                    <p>Specialized certificate in designing and building web pages.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="year">2025</span>
+                    <h3>Data Analyst</h3>
+                    <p class="provider">Udacity Certified</p>
+                    <p>Certified in data analysis, processing, and interpretation.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ============================================
+         CONTACT SECTION (No Form)
+         ============================================ -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Contact Me <span>Get In Touch</span></h2>
+
+        <div class="contact-info">
+            <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                    <h4>Email:</h4>
+                    <p id="email-text">lamees.bassam05@gmail.com</p>
+                    <button onclick="copyToClipboard('lamees.bassam05@gmail.com')" class="btn-sm">
+                        Copy <i class="fas fa-copy"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <i class="fas fa-phone"></i>
+                <div>
+                    <h4>Phone:</h4>
+                    <p dir="ltr">+972 59-908-6178</p>
+                    <button onclick="copyToClipboard('+972599086178')" class="btn-sm">
+                        Copy <i class="fas fa-copy"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                    <h4>Location:</h4>
+                    <p>Salfit - Kafr Haris, Palestine</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <i class="fab fa-linkedin"></i>
+                <div>
+                    <h4>LinkedIn:</h4>
+                    <p>lamees-bassam</p>
+                    <a href="https://www.linkedin.com/in/lamees-bassam-61a463380" 
+                       target="_blank" rel="noopener noreferrer" class="btn-sm">
+                        Visit <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- GitHub Card -->
+            <div class="info-item">
+                <i class="fab fa-github"></i>
+                <div>
+                    <h4>GitHub:</h4>
+                    <p>lamees-bassam</p>
+                    <a href="https://github.com/lamees-bassam" 
+                       target="_blank" rel="noopener noreferrer" class="btn-sm">
+                        Visit <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer>
+        <p>All Rights Reserved &copy; 2026 Lamees Bassam</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
